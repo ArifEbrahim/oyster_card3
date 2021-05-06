@@ -32,7 +32,6 @@ class Oystercard
     @journeys[:exit_station] = @exit_station
     deduct
     @entry_station = nil
-
   end
 
   private
@@ -45,4 +44,3 @@ class Oystercard
     @balance < BALANCE_LIMIT
   end
 end
-
